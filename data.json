@@ -1,0 +1,33 @@
+{
+  "sample_rate": 44100,
+  "single": {
+    "signal": "sine",
+    "amplitude": 1,
+    "frequency": 440,
+    "phase_shift": 0,
+    "duty_cycle_threshold": 0
+  },
+  "polyharmonic": [
+    {
+      "signal": "triangular",
+      "amplitude": 5,
+      "frequency": 440,
+      "phase_shift": 0,
+      "duty_cycle_threshold": 0
+    },
+    {
+      "signal": "sawtooth",
+      "amplitude": 1,
+      "frequency": 0,
+      "phase_shift": 0,
+      "duty_cycle_threshold": 0
+    }
+  ],
+  "modulating": {
+    "signal": "pulse",
+    "amplitude": 1,
+    "frequency": 5,
+    "phase_shift": 0,
+    "duty_cycle_threshold": 0
+  }
+}

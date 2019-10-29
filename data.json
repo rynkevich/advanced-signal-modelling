@@ -4,20 +4,20 @@
     "signal": "sine",
     "amplitude": 1,
     "frequency": 440,
-    "phase_shift": 0,
+    "phase_shift": 0
   },
   "polyharmonic": [
     {
       "signal": "triangular",
       "amplitude": 5,
       "frequency": 440,
-      "phase_shift": 0,
+      "phase_shift": 0
     },
     {
       "signal": "sawtooth",
       "amplitude": 1,
       "frequency": 0,
-      "phase_shift": 0,
+      "phase_shift": 0
     }
   ],
   "modulating": {
